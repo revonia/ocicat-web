@@ -1,0 +1,35 @@
+
+.normal {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.video{
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  opacity:0.3;
+  z-index: -1000;
+  /*加滤镜*/
+  /*-webkit-filter: grayscale(100%);*/
+  /*filter:grayscale(100%);*/
+}
+.videoMono {
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  height: auto;
+  width: auto;
+  opacity:0.2;
+  background-color: black;
+  z-index: -999;
+  /*加滤镜*/
+  /*-webkit-filter: grayscale(100%);*/
+  /*filter:grayscale(100%);*/
+}

@@ -1,0 +1,28 @@
+
+.normal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 36px;
+  box-shadow: 0 14px 50px rgba(0, 0, 0, .20);
+  background-color: white;
+  border-radius: 4px;
+}
+
+.header {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 24px;
+}
+
+.header img {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.header span {
+  vertical-align: text-bottom;
+  font-size: 16px;
+  display: inline-block;
+}

@@ -1,0 +1,36 @@
+
+.normal {
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.main {
+  margin: 32px 0;
+  padding: 16px 8px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+}
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
